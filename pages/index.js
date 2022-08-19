@@ -44,7 +44,7 @@ export default function Home() {
                     <a href="https://www.getrevue.co/profile/thebasics" className={styles.heroBtn}>Join Waitlist</a>
                 </div>
                 <div className="col-md-6 order-0 order-md-1">
-                    <Image src="/hero-sc.svg" className="img-fluid"  width="750" height="500" alt="..."/>
+                    <Image src="/hero-sc.svg" className="img-fluid"  width="750" height="500" alt="hero image"/>
                 </div>
             </div>
         </div>
