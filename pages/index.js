@@ -133,7 +133,7 @@ export default function Home() {
                         </button>
                       </h2>
                       <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Enrolling into the course is just easy as buying a book at Amazon. Pick the course you like, and click the Enroll button. Once you've successfully enrolled you'll receive a confirmation mail into your inbox.</div>
+                        <div className="accordion-body">Enrolling into the course is just easy as buying a book at Amazon. Pick the course you like, and click the Enroll button. Once you have successfully enrolled you will receive a confirmation mail into your inbox.</div>
                       </div>
                     </div>
                     <div className="accordion-item">
