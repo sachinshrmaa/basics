@@ -54,6 +54,7 @@ export default function Home() {
         <div className="features-sc py-5 px-3">
             <div className="col-md-8 m-auto">
                 <h2 className={styles.subHeading}>Our Features</h2>
+   
 
                 <div className="row">
                     <div className="col-md-3 col-11">
@@ -61,7 +62,7 @@ export default function Home() {
                             <Image src="/live-session.svg" className="card-img-top"  width="250" height="250" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title text-center">Live Session</h5>
-                                <p className='card-body text-muted text-center'>this is a dummy subtutie of few lines.</p>
+                                <p className='card-body text-muted text-center'>6 hours of live interactive sessions.</p>
                             </div>
                         </div>
 
@@ -72,7 +73,7 @@ export default function Home() {
                             <Image src="/resources.svg" className="card-img-top"  width="250" height="250" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title text-center">Free Resources</h5>
-                                <p className='card-body text-muted text-center'>this is a dummy subtutie of few lines.</p>
+                                <p className='card-body text-muted text-center'>Get access to many downloadable resources.</p>
                             </div>
                         </div>
 
@@ -83,7 +84,7 @@ export default function Home() {
                             <Image src="/projects.svg" className="card-img-top"  width="250" height="250" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title text-center">Project Building</h5>
-                                <p className='card-body text-muted text-center'>this is a dummy subtutie of few lines.</p>
+                                <p className='card-body text-muted text-center'>At the end build a website by your own.</p>
                             </div>
                         </div>
 
@@ -94,7 +95,7 @@ export default function Home() {
                             <Image src="/community.svg" className="card-img-top"  width="250" height="250" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title text-center">Private Community</h5>
-                                <p className='card-body text-muted text-center'>this is a dummy subtutie of few lines.</p>
+                                <p className='card-body text-muted text-center'>Join the private Discord community.</p>
                             </div>
                         </div>
 
@@ -112,6 +113,7 @@ export default function Home() {
         <div className={styles.faqSc}>
             <div className="col-md-6 col-11 m-auto my-5">
                 <h2 className={styles.subHeading}>Frequently asked Questions</h2>
+                <p className={styles.description}>If you still have some questions, please feel free to <a href='mailto:mail.sachinsblog@gmail.com' className='text-decoration-none'>contact us</a> and we will gladly provide you with more detailed information about our process.</p>
     
                 <div className="accordion accordion-flush" id="accordionFlushExample">
                     <div className="accordion-item">
@@ -121,7 +123,7 @@ export default function Home() {
                         </button>
                       </h2>
                       <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the first accordion body.</div>
+                        <div className="accordion-body">the Basics is an online platform built to teach the very basics skills from scratch to any beginner via 90 minute live interactive sessions.</div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -131,7 +133,7 @@ export default function Home() {
                         </button>
                       </h2>
                       <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the second items accordion body. Lets imagine this being filled with some actual content.</div>
+                        <div className="accordion-body">Enrolling into the course is just easy as buying a book at Amazon. Pick the course you like, and click the Enroll button. Once you've successfully enrolled you'll receive a confirmation mail into your inbox.</div>
                       </div>
                     </div>
                     <div className="accordion-item">
@@ -141,9 +143,21 @@ export default function Home() {
                         </button>
                       </h2>
                       <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the third item accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        <div className="accordion-body">No worries, we got your back! All the sessions are recorded, and are posted privately on YouTube. You can watch it as many times as you like.</div>
                       </div>
                     </div>
+
+                    <div className="accordion-item">
+                      <h2 className="accordion-header" id="flush-headingFour">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                          Can I get refund?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                        <div className="accordion-body">No, For now we do not provide refunds.</div>
+                      </div>
+                    </div>
+
                   </div>
     
             </div>
