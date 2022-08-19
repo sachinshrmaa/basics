@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>the Basics</title>
-        <meta name="description" content="A series of live cohort which intents to teach you the basics from scratch" />
+        <meta name="description" content="A series of live cohort which intents to teach you the basics from scratch." />
   
       </Head>
 
